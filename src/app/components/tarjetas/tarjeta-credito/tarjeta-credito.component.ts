@@ -25,4 +25,7 @@ export class TarjetaCreditoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  guardarTarjeta() {
+      console.log(this.form);
+  }
 }
